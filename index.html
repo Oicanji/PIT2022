@@ -1,80 +1,170 @@
 <!doctype html>
 <html lang="pt-BR">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="libraries/css/bootstrap.css">
+	<link rel="stylesheet" href="libraries/css/styles.css">
+
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <title>Pegada Jeans</title>
-	<style>
-		body{
-			font-family: 'Roboto', sans-serif;
-		}
-		.active{
-			font-size: 1.2em;
-		}
-		.nav .nav-item a.nav-link:hover{
-			transition: transform 5s;
-			font-size: 1.2em;
-		}
-		.nav .nav-item a.nav-link.active:hover{
-			text-decoration: underline
-			font-size: 1.4em;
-		}
-	</style>
-  </head>
-  <body>
+	<title>Pegada Jeans</title>
+</head>
+
+<body>
 	<div class="bg-light">
-		<ul class="nav justify-content-center p-3">
+		<ul class="nav justify-content-center p-2">
 			<li class="nav-item">
 				<a class="nav-link active link-dark" aria-current="page" href="#">pegada-jeans.com</a>
 			</li>
 		</ul>
 	</div>
 	<div class="bg-primary bg-opacity-75">
-		<div class="container bg-primary nav justify-content-center pt-5 pb-5">
-		  <li class="nav-item">
-			<a class="nav-link link-light" href="#">Sobre</a>
-		  </li>
-		  <li class="nav-item">
-			<a class="nav-link link-light active" href="#">Introdução</a>
-		  </li>
-		  <li class="nav-item">
-			<a class="nav-link link-light" href="#">Produtos</a>
-		  </li>
+		<div class="container bg-primary nav justify-content-center pt-4 pb-4">
+			<li class="nav-item">
+				<a class="nav-link link-light" href="#">Sobre</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link link-light active" href="#">Introdução</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link link-light" href="#">Produtos</a>
+			</li>
 		</div>
 	</div>
 	<div class="container ps-0 pe-0">
 		<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-		  <div class="carousel-inner">
-			<div class="carousel-item active" data-bs-interval="2000">
-			  <img src="resource/lorem.jpg" class="d-block w-100" alt="...">
+			<div class="carousel-inner">
+				<div class="carousel-item active" data-bs-interval="5000">
+					<div class="carousel-image d-block" style="background-image: url('resource/sewing-threads-on-wall.jpg')">
+
+					</div>
+				</div>
+				<div class="carousel-item" data-bs-interval="5000">
+					<div class="carousel-image d-block" style="background-image: url('resource/ocean-water-with-swimmers.jpg')">
+
+					</div>
+				</div>
+				<div class="carousel-item" data-bs-interval="5000">
+					<div class="carousel-image d-block" style="background-image: url('resource/stylish-young-woman-with-bags-taking-selfie.jpg')">
+
+					</div>
+				</div>
 			</div>
-			<div class="carousel-item" data-bs-interval="2000">
-			  <img src="resource/lorem.jpg" class="d-block w-100" alt="...">
-			</div>
-			<div class="carousel-item" data-bs-interval="2000">
-			  <img src="resource/lorem.jpg" class="d-block w-100" alt="...">
-			</div>
-		  </div>
-		  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			<span class="visually-hidden">Previous</span>
-		  </button>
-		  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-			<span class="carousel-control-next-icon" aria-hidden="true"></span>
-			<span class="visually-hidden">Next</span>
-		  </button>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+				data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+				data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
 		</div>
 	</div>
-	
-	
-	<script src="dependencies/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  </body>
+	<div class="bg-primary bg-opacity-75">
+		<div class="container ps-0 pe-0 pt-1 bg-primary espaco_branco"></div>
+	</div>
+	<div class="container">
+		<div class="row  ps-0 pe-0 bg-light">
+			<div class="mb-3 mt-3 text-center text-decoration-none h2">
+				<a href="https://www.instagram.com/pegadajeanss/"> Veja mais sapatinhos da PEGADA JEANS aqui. </a>
+			</div>
+			<div class="col-sm-6 col-md-4 col-xl-3 p-3">
+				<div class="card">
+					<img src="resource/158006540_1090564951458609_4950106564883672431_n.jpg" class="card-img-top" alt="...">
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4 col-xl-3 p-3">
+				<div class="card">
+					<img src="resource/288960845_1895816363947021_3766886306404034431_n.jpg" class="card-img-top" alt="...">
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4 col-xl-3 p-3">
+				<div class="card">
+					<img src="resource/268710512_258840503015975_7467014938876577976_n.jpg" class="card-img-top" alt="...">
+				</div>
+			</div>
+
+			<div class="col-sm-6 col-md-4 col-xl-3 p-3">
+				<div class="card">
+					<img src="resource/232649137_700555130783766_1284423084294641230_n.jpg" class="card-img-top" alt="...">
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4 col-xl-3 p-3">
+				<div class="card">
+					<img src="resource/241284056_360140412318121_5692011643630875466_n.jpg" class="card-img-top" alt="...">
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4 col-xl-3 p-3">
+				<div class="card">
+					<img src="resource/241284056_360140412318121_5692011643630875466_n.jpg" class="card-img-top" alt="...">
+				</div>
+			</div>
+
+			<div class="col-sm-6 col-md-4 col-xl-3 p-3">
+				<div class="card">
+					<img src="resource/289406389_137490152264143_1497960127992963140_n.jpg" class="card-img-top" alt="...">
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4 col-xl-3 p-3">
+				<div class="card">
+					<img src="resource/289113970_993835567968654_8391701717650426319_n.jpg" class="card-img-top" alt="...">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="bg-primary bg-opacity-75">
+		<div class="container ps-0 pe-0 pt-1 bg-primary">
+			<div class="row pr-3 pl-3">
+				<div class="col-sm-12 col-md-4 p-4">
+					<div class="card">
+						<img src="resource/260154148_1032613890624460_5226212313856533489_n.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<p class="card-text">Rasteirinhas, sapatilhas, sapatos e ... <br /> muito mais!</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-4 p-4">
+					<div class="card">
+						<img src="resource/289602311_127670233058402_8255127805972660515_n.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<p class="card-text">Mochilinhas de diversas estampas e com diversos modelos</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-4 p-4">
+					<div class="card">
+						<img src="resource/219550617_551610109516135_3876817704488210059_n.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<p class="card-text">E muito mais modelos e produtos, todos feitos com carinho!</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="bg-dark text-light">
+		<div class="container ps-0 pe-0 pb-2">
+			<div class="text-center p-4">
+				<h1>PEGADA JEANS</h1>
+				<em>
+					<h5>Peças Exclusivas,Sustentavél, Upcycling e totalmente artesanal, pensada de forma consciente do início ao fim.</h5>
+				</em>
+			</div>
+			<hr>
+			<a class="h4" href="https://www.instagram.com/pegadajeanss/">@pegadajeanss</a>
+		</div>
+	</div>
+
+	<script src="libraries/js/jquery.min.js"></script>
+	<script src="libraries/js/bootstrap.js"></script>
+</body>
+
 </html>
